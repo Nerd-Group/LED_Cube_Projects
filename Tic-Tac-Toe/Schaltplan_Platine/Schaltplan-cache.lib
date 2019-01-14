@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 74xx_74HC595
+# 74xx:74HC595
 #
-DEF 74xx_74HC595 U 0 20 Y Y 1 F N
+DEF 74xx:74HC595 U 0 20 Y Y 1 F N
 F0 "U" -300 550 50 H V C CNN
-F1 "74xx_74HC595" -300 -650 50 H V C CNN
+F1 "74xx:74HC595" -300 -650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS 74LS595 74HCT595
@@ -37,11 +37,11 @@ X QH' 9 400 -500 100 L 50 50 1 0 O
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x01_Male
+# Connector:Conn_01x01_Male
 #
-DEF Connector_Conn_01x01_Male J 0 40 Y N 1 F N
+DEF Connector:Conn_01x01_Male J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x01_Male" 0 -100 50 H V C CNN
+F1 "Connector:Conn_01x01_Male" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -54,11 +54,11 @@ X Pin_1 1 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x03_Male
+# Connector:Conn_01x03_Male
 #
-DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
+DEF Connector:Conn_01x03_Male J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
+F1 "Connector:Conn_01x03_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -77,11 +77,11 @@ X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_USB_B
+# Connector:USB_B
 #
-DEF Connector_USB_B J 0 40 Y Y 1 F N
+DEF Connector:USB_B J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "Connector_USB_B" -200 350 50 H V L CNN
+F1 "Connector:USB_B" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -110,11 +110,11 @@ X Shield 5 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_C
+# Device:C
 #
-DEF Device_C C 0 10 N Y 1 F N
+DEF Device:C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
+F1 "Device:C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -128,11 +128,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_LED
+# Device:LED
 #
-DEF Device_LED D 0 40 N N 1 F N
+DEF Device:LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
+F1 "Device:LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -151,11 +151,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_LED_CRGB
+# Device:LED_CRGB
 #
-DEF Device_LED_CRGB D 0 0 Y N 1 F N
+DEF Device:LED_CRGB D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
-F1 "Device_LED_CRGB" 0 -350 50 H V C CNN
+F1 "Device:LED_CRGB" 0 -350 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -193,11 +193,11 @@ X BA 4 200 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R
+# Device:R
 #
-DEF Device_R R 0 0 N Y 1 F N
+DEF Device:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
+F1 "Device:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -210,11 +210,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R_POT
+# Device:R_POT
 #
-DEF Device_R_POT RV 0 40 Y N 1 F N
+DEF Device:R_POT RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "Device_R_POT" -100 0 50 V V C CNN
+F1 "Device:R_POT" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -223,18 +223,18 @@ $ENDFPLIST
 DRAW
 S 40 100 -40 -100 0 1 10 N
 P 2 0 1 0 100 0 60 0 N
-P 4 0 1 0 45 0 90 20 90 -20 45 0 F
+P 3 0 1 0 45 0 90 20 90 -20 F
 X 1 1 0 150 50 D 50 50 1 1 P
 X 2 2 150 0 50 L 50 50 1 1 P
 X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCU_Module_Arduino_Nano_v3.x
+# MCU_Module:Arduino_Nano_v3.x
 #
-DEF MCU_Module_Arduino_Nano_v3.x A 0 40 Y Y 1 F N
+DEF MCU_Module:Arduino_Nano_v3.x A 0 40 Y Y 1 F N
 F0 "A" -200 1025 50 H V R CNN
-F1 "MCU_Module_Arduino_Nano_v3.x" -200 950 50 H V R CNN
+F1 "MCU_Module:Arduino_Nano_v3.x" -200 950 50 H V R CNN
 F2 "Module:Arduino_Nano" 150 -950 50 H I L CNN
 F3 "" 0 -1000 50 H I C CNN
 ALIAS Arduino_Nano_v2.x
@@ -276,11 +276,11 @@ X D6 9 -500 0 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_Push_Dual
+# Switch:SW_Push_Dual
 #
-DEF Switch_SW_Push_Dual SW 0 40 Y N 1 F N
+DEF Switch:SW_Push_Dual SW 0 40 Y N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push_Dual" 0 -270 50 H V C CNN
+F1 "Switch:SW_Push_Dual" 0 -270 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -303,11 +303,11 @@ X 4 4 200 -200 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Transistor_BJT_BC337
+# Transistor_BJT:BC337
 #
-DEF Transistor_BJT_BC337 Q 0 0 Y N 1 F N
+DEF Transistor_BJT:BC337 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_BJT_BC337" 200 0 50 H V L CNN
+F1 "Transistor_BJT:BC337" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 ALIAS BC546 BC548 BC549 BC550 BC337 BC338
@@ -327,11 +327,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power_+5V
+# power:+5V
 #
-DEF power_+5V #PWR 0 0 Y Y 1 F P
+DEF power:+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
+F1 "power:+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -342,11 +342,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# power:GND
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF power:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
